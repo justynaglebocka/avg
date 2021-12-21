@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>AVG</title>
+</head>
+<body>
+
+    <script>
+        function avg() {
+            let tablice = [1,2,5,6,7,45,765,76567];
+            let wynik = 0;
+            let i = 0;
+            let elementTablicy = 0;
+            let dlugoscTablicy = tablice.length;
+            
+            while (i<dlugoscTablicy) {
+                wynik = wynik + tablice[elementTablicy];
+                i = i+1;
+                elementTablicy = elementTablicy + 1;
+            }
+        
+            wynik  = wynik / dlugoscTablicy;
+            console.log(wynik);
+
+        }
+
+        avg();
+
+    </script>
+</body>
+</html>
